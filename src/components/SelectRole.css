@@ -1,0 +1,40 @@
+.container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.container h2 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Button Styling */
+.container button {
+  background-color: #004aad;  /* Deep blue */
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 12px 35px;
+  margin: 0 15px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 5px 12px rgba(0, 74, 173, 0.4);
+  transition: all 0.3s ease;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  min-width: 140px;
+}
+
+.container button:hover {
+  box-shadow: 0 8px 20px rgba(0, 74, 173, 0.7);
+  transform: translateY(-3px);
+}
+
+.container button:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 8px rgba(0, 74, 173, 0.3);
+}
